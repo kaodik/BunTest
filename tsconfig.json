@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "module": "amd",
+    "target": "es2020",
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "newLine": "LF",
+    "noUnusedLocals": false,
+    "experimentalDecorators": true,
+    "baseUrl": " ",
+    "lib": ["es5", "es2020", "dom"],
+    "paths": {
+      "N": ["node_modules/@hitc/netsuite-types/N"],
+      "N/*": ["node_modules/@hitc/netsuite-types/N/*"]
+    },
+    "outDir": "src/FileCabinet/SuiteScripts/email-to-csv-import"
+  },
+  "exclude": ["node_modules"],
+  "include": ["./"]
+}
+// {
+//   "compilerOptions": {
+//     "module": "amd",
+//     "target": "es2020",
+//     "moduleResolution": "node",
+//     "moduleDetection": "force",
+//     "sourceMap": false,
+//     "newLine": "LF",
+//     "noUnusedLocals": false,
+//     "experimentalDecorators": true,
+//     "baseUrl": " ",
+//     "lib": ["es5", "es2020", "dom"],
+//     "allowImportingTsExtensions": true,
+//     "noEmit": true,
+//     "composite": true,
+//     "strict": true,
+//     "downlevelIteration": true,
+//     "skipLibCheck": true,
+//     "jsx": "react-jsx",
+//     "allowSyntheticDefaultImports": true,
+//     "forceConsistentCasingInFileNames": true,
+//     "allowJs": true,
+//     "types": [
+//       "bun-types" // add Bun global
+//     ],
+//     "outDir": "src/email-to-csv-import"
+//   },
+//   "exclude": ["node_modules"],
+//   "include": ["./index.ts"]
+// }
